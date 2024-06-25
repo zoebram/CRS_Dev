@@ -1,0 +1,24 @@
+.search-bar {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-bar input {
+    width: 80%;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  
+  .search-bar button {
+    background-color: #757070;
+    color: white;
+    border: none;
+    margin: 0 0 20px 0;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }

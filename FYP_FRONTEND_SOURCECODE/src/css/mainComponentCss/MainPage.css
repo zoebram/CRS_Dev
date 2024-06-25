@@ -1,0 +1,43 @@
+/* Prevent scrolling on the entire page */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.main-page {
+  text-align: center;
+  padding-top: 100px;
+  position: relative; /* Ensure that the main page is positioned relatively */
+  height: 100%; /* Full height */
+}
+
+.think-big {
+  margin-top: 50px;
+  font-size: 2em;
+  text-shadow: 5px 0px 5px #c1a0a0;
+  font-weight: bold;
+}
+
+.semi-circle-one, .semi-circle-two {
+  border-radius: 100% / 100%; /* Creates an oval shape */
+  border: none; /* No border needed, adjust as per your design */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed; /* Fixed position */
+  bottom: 0; /* Align to the bottom of the viewport */
+  left: 0; /* Start from the left edge */
+  transform: translateY(50%); /* Adjust vertical position to hide part of the oval */
+}
+
+.semi-circle-one {
+  width: 100%; /* Full width of the viewport */
+  height: 60%; /* Adjust height to control the visible part of the oval */
+  background-color: #d9d9d9; /* Optional: Adjust background color */
+}
+
+.semi-circle-two {
+  width: 100%; /* Full width of the viewport */
+  height: 55%; /* Adjust height to control the visible part of the oval */
+  background-color: #b97a60; /* Background color for visibility */
+}

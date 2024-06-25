@@ -1,0 +1,30 @@
+.header {
+  background-color: #c37851; /* Adjust the color to match the exact shade if needed */
+  padding: 10px 20px; /* Adjust padding for better alignment */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Arial', sans-serif; /* Ensuring the font is consistent */
+}
+
+.header h1 {
+  color: white;
+  margin: 0;
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+.header nav {
+  font-size: larger;
+  text-shadow: 5px 0px 5px black;
+}
+
+.header nav a {
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none; /* Remove underline from links */
+  margin-left: 20px; /* Space between links */
+}
+
+.header-title {
+  font-weight: 600;
+}

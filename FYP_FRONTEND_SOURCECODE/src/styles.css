@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .navbar {
+    background-color: #a0522d;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+  }
+  
+  .header {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .search-bar {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .search-bar input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a0522d;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .product-card {
+    margin: 20px 0;
+  }
+  
+  .product-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .recommendation {
+    margin-top: 20px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+  }
+  

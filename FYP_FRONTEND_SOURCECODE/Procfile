@@ -1,0 +1,2 @@
+web: nginx -p /app -c ./config/nginx.conf
+web: npm start

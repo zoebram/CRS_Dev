@@ -1,0 +1,111 @@
+.search-result-page {
+    padding: 20px;
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr)); /* Adjust the minmax values based on your design preference */
+    gap: 20px; /* Space between grid items */
+    padding: 20px;
+  }
+  .product-result-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 23%;
+  }
+  
+  .product-result-item h3 {
+    margin-top: 0;
+  }
+
+  .result-item-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Aligns children at the top and bottom */
+    max-height: 20em;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #EEE5D2;
+    opacity: 80%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: left;
+    overflow: auto;
+  }
+
+  .item-title {
+    margin-bottom: auto; /* Pushes the title to the top and content to the bottom */
+  }
+
+  .item-overview {
+    margin-top: auto; /* Ensures content is pushed to the bottom */
+  }
+
+  .item-name{
+    font-weight: bold;
+    overflow: auto;
+  }
+
+  .product-overview{
+    font-style: italic;
+    margin: 10px 0;
+  }
+  
+  .pagination {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: flex-end;
+  }
+  
+  .pagination span {
+    font-size: 1.2em;
+    padding: 0 20px;
+  }
+  
+  .pagination button {
+    background-color: #c2ad73;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 6em;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
+
+
+  .pagination-container {
+    bottom: 0px;
+    right: 0px; /* Position to the right */
+    position: fixed;
+    display: flex;
+    justify-content: flex-end; /* Keeps pagination controls aligned to the right */
+    margin-top: 20px; /* Space above the pagination controls */
+  }
+
+  .search-type-selector {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center; /* Adjust spacing and alignment as needed */
+  }
+  
+  .search-type-selector label {
+    margin-right: 10px; /* Space between labels */
+    font-weight: bold; /* Optional: makes text bold */
+  }
+  
+  .search-type-selector input {
+    margin-right: 5px; /* Space between radio button and label text */
+  }

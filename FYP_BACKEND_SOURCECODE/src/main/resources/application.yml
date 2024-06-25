@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: Cocoa-Recommendation-System
+  neo4j:
+    authentication:
+      username: neo4j #change accordingly to your neo4j username
+      password: admin123 #change accordingly to your neo4j password
+    uri: bolt://localhost:7687 #change accordingly to your neo4j uri
+  cloud:
+    config:
+      enabled: false
+server:
+  port: 8080 # change port accordingly
+  servlet:
+    context-path: /api
+  error:
+    include-message: always
+logging:
+  level:
+    root: INFO
+    org.springframework.web: DEBUG
+    com.fyp_cocoa: DEBUG

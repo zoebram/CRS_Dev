@@ -1,0 +1,46 @@
+.preference-page {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+  
+.preference-section {
+    margin-bottom: 20px;
+}
+  
+.preference-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.preference-section div {
+    margin-bottom: 10px;
+}
+  
+.preference-section input[type="radio"] {
+    margin-right: 5px;
+}
+  
+.preference-section input[type="text"] {
+    min-width: fit-content;
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 85%;
+}
+
+.preference-page > button {
+    background-color: #feffbf;
+    opacity: 70%;
+}
+
+.checkbox-container{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+.checkbox-container-child{
+    display: flex;
+    align-items: center;
+}
